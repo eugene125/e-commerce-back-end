@@ -42,7 +42,7 @@ router.get('/:id', async (req, res) => {
     if (singleTag) {
       res.status(200).json(singleTag);
     } else {
-      res.status(400).json({ message: "Tag not found"});
+      res.status(400).json({ message: "Tag not found" });
     }
   }
   catch (err) {
@@ -65,7 +65,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
-  const putResult = await Tag.update(req.body, {
+  const result = await Tag.update(req.body, {
     where: {
       id: req.params.id
     }
