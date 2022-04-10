@@ -32,7 +32,7 @@ My E-Commerce-Back-End program manages a comapies database. The program allows a
 ![Successful seeding of the database](./Assets/Successful-seed.png)
 ![The server is working](./Assets/Server-start.png)
 
-[Video link to insomia usage](https://drive.google.com/file/d/1J_Iug4kKk_bpViPmqq9v7RHnmj9TddAB/view)
+[Video link to insomia usage](https://drive.google.com/file/d/1J_Iug4kKk_bpViPmqq9v7RHnmj9TddAB/view?usp=sharing)
 
 ## GitHub Repository
 
